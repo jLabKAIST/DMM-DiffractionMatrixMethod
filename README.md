@@ -1,5 +1,6 @@
 # DMM:DiffractionMatrixMethod
 Authors : Chanhyung Park, Jeongmin Shin, Min Seok Jang
+
 Design code of Diffraction Matrix Method for calculation of periodically corrugated OLEDs
 
 # Notice
