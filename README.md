@@ -1,4 +1,4 @@
-# DiffractionMatrixMethod_DMM
+# DMM:DiffractionMatrixMethod
 Design code of Diffraction Matrix Method for calculation of periodically corrugated OLEDs
 
 # Notice
