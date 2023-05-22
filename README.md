@@ -5,7 +5,7 @@ Design code of Diffraction Matrix Method for calculation of periodically corruga
 
 # Notice
 In DMM, RETICOLO, which is a rigorous coupled-wave analysis (RCWA) open-source code developed by J. P. Hugonin and P. Lalanne, is included.
-Please download RETICOLO V8 or higher version.
+Please download RETICOLO V8 or higher version and unzip the folder to the directory where DMM_main.m or DMM_2D_main.m is located.
 
 # How to run this code
 Run DMM_main.m for 1D corrugated OLED / DMM_2D_main.m for 2D corrugated OLED
