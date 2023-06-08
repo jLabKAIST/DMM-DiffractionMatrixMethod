@@ -13,4 +13,5 @@ Run DMM_main.m for 1D corrugated OLED / DMM_2D_main.m for 2D corrugated OLED
 # How to cite this code
 
 Chanhyung Park, Jeongmin Shin, Sanmun Kim, Songju Lee, Juho Park, Jaehyeok Park, Sehong Park, Seunghyup Yoo, and Min Seok Jang, "Fast and rigorous optical simulation of periodically corrugated light-emitting diodes based on a diffraction matrix method," Opt. Express 31, 20410-20423 (2023)
+
 https://opg.optica.org/oe/fulltext.cfm?uri=oe-31-12-20410&id=531196
