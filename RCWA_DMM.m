@@ -262,6 +262,10 @@ rd.TMTM = R_amp_TMTM .* E_R_TMTMu ./ E_I_TMu;
 rd.TETM = R_amp_TETM .* E_R_TETMu ./ E_I_TEu;
 rd.TMTE = R_amp_TMTE .* E_R_TMTEu ./ E_I_TMu;
 
+rd.TETE(isnan(rd.TETE)) = 0;
+rd.TMTM(isnan(rd.TMTM)) = 0;
+rd.TETM(isnan(rd.TETM)) = 0;
+rd.TMTE(isnan(rd.TMTE)) = 0;
 % td.TETE = T_amp_TETE .* E_T_TETEu ./ E_I_TEu;
 % td.TMTM = T_amp_TMTM .* E_T_TMTMu ./ E_I_TMu;
 % td.TETM = T_amp_TETM .* E_T_TETMu ./ E_I_TEu;
