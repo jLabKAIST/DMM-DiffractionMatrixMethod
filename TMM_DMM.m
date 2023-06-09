@@ -41,7 +41,7 @@ parfor uyindex = 1:length(uysize)
 ux = uxsize(uxindex);
 uy = uysize(uyindex);
 
-u_temp = sqrt(ux^2 + uy^2);
+u_temp = sqrt(ux^2 + uy^2 + 1e-12);
 
 [r_TE_temp,R_TE_temp,t_TE_temp,T_TE_temp,r_TM_temp,R_TM_temp,t_TM_temp,T_TM_temp] = Func_TMM(thickness_prime, n_prime, wavelengths, u_temp);
     
